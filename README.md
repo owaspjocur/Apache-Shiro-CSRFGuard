@@ -3,11 +3,18 @@ Apache-Shiro-CRSFGuard
 
 This is a version of Apache Shiro web application using OWASP CRSFGuard to protect forms and Post request with a unique token
 
+Tutorial project:
+http://shiro.apache.org/webapp-tutorial.html
+https://github.com/lhazlewood/apache-shiro-tutorial-webapp
+
 ##About the project
 This project can be run from Eclipse Mars using Jetty
 Eclipse Java EE IDE for Web Developers.
 Version: Mars Release (4.5.0)
 Build id: 20150621-1200
+
+Using Eclipse Jetty 3.9.0
+Available through teh marketplace
 
 ##Instructions
 The web app is using Stormpath as OAUTH. In order to run this properly you must obtain a apiKey as instructed in the Apache Shiro Documentation to setup Stormpath:
