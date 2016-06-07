@@ -6,6 +6,7 @@ This is a version of Apache Shiro web application using OWASP CRSFGuard to prote
 Tutorial project:
 http://shiro.apache.org/webapp-tutorial.html
 https://github.com/lhazlewood/apache-shiro-tutorial-webapp
+![Apache-Shiro-CSRFGuard](https://github.com/owaspjocur/Apache-Shiro-CSRFGuard/blob/master/Screenshot%202016-06-07%2016.41.29.png)
 
 ##About the project
 
