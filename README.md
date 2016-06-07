@@ -20,6 +20,13 @@ Available through the marketplace
 ##Instructions
 The web app is using Stormpath as OAUTH. In order to run this properly you must obtain a apiKey as instructed in the Apache Shiro Documentation to setup Stormpath:
 http://shiro.apache.org/webapp-tutorial.html#step2
+Make sure you set get an apiKey.properties file with your key 
+Make sure you edit the information in the Shiro.ini file:
+
+ ```
+ stormpathClient.apiKeyFileLocation = /Users/johannacuriel/Documents/stormpath/apiKey.properties
+ stormpathRealm.applicationRestUrl = https://api.stormpath.com/v1/applications/yourApplicationkeyHere
+  ```
 
 ##Set a token
 To add a protection token to a [post] form you need to add the following hidden field
