@@ -24,7 +24,7 @@ Make sure you set get an apiKey.properties file with your key
 Make sure you edit the information in the Shiro.ini file:
 
  ```
- stormpathClient.apiKeyFileLocation = /Users/johannacuriel/Documents/stormpath/apiKey.properties
+ stormpathClient.apiKeyFileLocation = /pathtoyourkey/stormpath/apiKey.properties
  stormpathRealm.applicationRestUrl = https://api.stormpath.com/v1/applications/yourApplicationkeyHere
   ```
 
