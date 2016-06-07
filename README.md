@@ -26,10 +26,12 @@ To add a protection token to a [post] form you need to add the following hidden 
   
   ##Example in code
   This web app is using CRSFGuard in the Login.jsp page
-  In order to do enable the token, you must set the following tag
+  In order to do enable the token, you must set the following tag:
+  
  ```
  <%@ taglib uri="http://www.owasp.org/index.php/Category:OWASP_CSRFGuard_Project/Owasp.CsrfGuard.tld" prefix="csrf" %>
  ```
+  
   In the form the following code (extract from login.jsp)
 
  ```
