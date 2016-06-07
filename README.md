@@ -16,9 +16,9 @@ http://shiro.apache.org/webapp-tutorial.html#step2
 ##Set a token
 To add a protection token to a [post] form you need to add the following hidden field
 
-  <form name="test1" action="protect.html">
+ ``` <form name="test1" action="protect.html">
      <input type="text" name="text" value="text"/>
      <input type="submit" name="submit" value="submit"/>
      <input type="hidden" name="<csrf:tokenname/>" value="<csrf:tokenvalue uri="protect.html"/>"/>
-  </form>
+  </form>```
 
