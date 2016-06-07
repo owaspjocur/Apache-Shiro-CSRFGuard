@@ -31,7 +31,7 @@ To add a protection token to a [post] form you need to add the following hidden 
  </form>
   ```
   
-  ##Example in code
+##Example in code
   This web app is using CRSFGuard in the Login.jsp page
   In order to do enable the token, you must set the following tag:
   
