@@ -23,4 +23,30 @@ To add a protection token to a [post] form you need to add the following hidden 
      <input type="hidden" name="<csrf:tokenname/>" value="<csrf:tokenvalue uri="protect.html"/>"/>
  </form>
   ```
+  
+  ##Example in code
+  This web app is using CRSFGuard in the Login.jsp page
+  In order to do enable the token, you must set the following tag
+  '''<%@ taglib uri="http://www.owasp.org/index.php/Category:OWASP_CSRFGuard_Project/Owasp.CsrfGuard.tld" prefix="csrf" %>'''
+  
+  '''
+   <form name="loginform" action="" method="POST" accept-charset="UTF-8" role="form">
+                            <fieldset>
+                                <div class="form-group">
+                                    <input class="form-control" placeholder="Username or Email" name="username" type="text">
+                                </div>
+                                <div class="form-group">
+                                    <input class="form-control" placeholder="Password" name="password" type="password" value="">                                  
+                                </div>                             
+                                    <input type="hidden" name="<csrf:tokenname/>" value="<csrf:tokenvalue uri="account/index.jsp"/>">
+                                <div class="checkbox">
+                                    <label>
+                                        <input name="rememberMe" type="checkbox" value="true"> Remember Me
+                                    </label>
+                                </div>
+                                <input class="btn btn-lg btn-success btn-block" type="submit" value="Login">
+                               
+                            </fieldset>
+                        </form>
+'''
 
