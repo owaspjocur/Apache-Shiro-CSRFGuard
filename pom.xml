@@ -26,7 +26,7 @@
     <packaging>war</packaging>
 
     <properties>
-        <shiro.version>1.2.2</shiro.version>
+        <shiro.version>1.13.0</shiro.version>
     </properties>
 
     <build>
